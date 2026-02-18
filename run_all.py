@@ -3,7 +3,12 @@ from pathlib import Path
 from src.data_gen import generate_events
 from src.kpis import compute_daily_kpis
 from src.quality import quality_checks
-from src.viz import plot_kpi_vs_trust, plot_quality_heatmap, plot_decision_impact, make_cover_image
+from src.viz import (
+    plot_kpi_vs_trust,
+    plot_quality_heatmap,
+    plot_decision_impact,
+    make_cover_image,
+)
 
 
 def main():
